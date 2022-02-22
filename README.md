@@ -1,0 +1,1 @@
+The aim of this project is to create a sign up form using just HTML and CSS
