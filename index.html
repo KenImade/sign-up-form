@@ -1,26 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css">
-    <title>Sign Up Form</title>
-</head>
-<body>
-    <div class="left-content">
-        <div class="page-logo">
-            <img src="/assets/odin-lined.png" alt="logo" id="logo-img">
-            <div id="logo-text">Odin</div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/style.css">
+        <title>Sign Up Form</title>
+    </head>
+    <body>
+        <div class="left-content">
+            <div class="page-logo">
+                <img src="/assets/odin-lined.png" alt="logo" id="logo-img">
+                <div id="logo-text">Odin</div>
+            </div>
         </div>
-    </div>
 
-    <div class="right-content">
-        <section>
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-            <p>Sign up now to get started</p>
-            <p>You know you want to</p>
-        </section>
-    </div>
-</body>
+        <div class="right-content">
+            <section class="description">
+                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                <p>Sign up now to get started.</p>
+                <p>You know you want to.</p>
+            </section>
+
+            
+            <form class="form-section">
+                <h4>Let's do this!</h4>
+                <div class="form-part">
+                    <div class="form-row">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" required class="focus"><br>
+                    </div>
+                </div>
+                <div class="form-part">
+                    <div class="form-row">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" id="tel" name="phone-number" required><br>
+                    </div>
+                </div>
+                <div class="form-part">
+                    <div class="form-row">
+                        <label for="pwd">Password</label>
+                        <input type="password" id="pwd" name="pwd" required>
+                    </div>
+                    <div class="form-row">
+                        <label for="confirm-pwd">Confirm Password</label>
+                        <input type="password" id="confirm-pwd" name="confirm-pwd" required>
+                    </div>
+                </div>
+            </form>
+            <div class="action">
+                <button>Create Account</button>
+                <div class="action-text">Already have an account? <span><a href="#">Log In</a></span></div>
+            </div>
+        </div>
+    </body>
 </html>
