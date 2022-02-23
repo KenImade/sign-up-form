@@ -28,11 +28,12 @@ body {
     display: flex;
     justify-content: center;
     gap: 5px;
+    padding: 10px;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
 #logo-text {
-    font-size: 60px;
+    font-size: 80px;
     padding: 20px 0px 20px 0px;
     align-content: center;
     font-family: "norse-bold-webfont", Arial, Helvetica, sans-serif;
