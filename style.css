@@ -131,12 +131,26 @@ button:hover {
     padding-top: 20px;
 }
 
-a {
+a[href="#"] {
     text-decoration: none;
     color: black;
 }
 
-a:hover {
+a:hover, 
+a[href*="KenImade"]:hover {
     color: rgb(243, 146, 10);
+}
+
+.bottom-content {
+    position: absolute;
+    top: 85vh;
+    left: 50px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+a[href*="KenImade"] {
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
